@@ -1,5 +1,11 @@
 [🇪🇸 Español](https://github.com/Pizzaface/Alexa-Chromecast-Skill-2.0/tree/spanish)
 
+Originally forked from Pizzaface/Alexa-Chromecast-Skill 2.0
+
+Modified to support very basic Play,pause,stop Chromecast commands
+Updated to support latest PyChromecast (10.3.0)...dramatically enhances stability 
+
+
 # Alexa Chromecast Skill
 
 Allows Amazon Alexa to control Google Chromecast
