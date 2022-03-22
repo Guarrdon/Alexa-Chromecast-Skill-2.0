@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: alexa-chromecast-service
+  namespace: alexa-chromecast
+spec:
+  selector:
+    app: alexa-skill-chromecast
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 00000
+      nodePort: 00000
